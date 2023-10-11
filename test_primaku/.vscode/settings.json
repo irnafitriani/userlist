@@ -1,0 +1,20 @@
+{
+    "[json]": {
+        "editor.formatOnSave": false
+    },
+    "dart.lineLength": 100,
+    "[dart]": {
+        "editor.defaultFormatter": "Dart-Code.dart-code",
+        "editor.formatOnSave": true
+    },
+    // active it for user who use FVM
+    "dart.flutterSdkPath": ".fvm/flutter_sdk",
+    // Remove .fvm files from search
+    "search.exclude": {
+        "**/.fvm": true
+    },
+    // Remove from file watching
+    "files.watcherExclude": {
+        "**/.fvm": true
+    }
+}
